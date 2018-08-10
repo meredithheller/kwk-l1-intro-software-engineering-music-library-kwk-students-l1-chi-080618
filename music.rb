@@ -9,7 +9,9 @@ library = {
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
 # This method should accept a hash as an argument.
 def list_artists(library)
-  return library.each_key
+  library.each_key
+  puts "#{key}"
+end
 end
 list_artists(library)
 #2. Define a method named `list_songs`. This method should use the `each_value` method to iterate over the music library hash and print out the name of the songs in the library.
