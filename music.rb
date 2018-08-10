@@ -10,7 +10,7 @@ library = {
 # This method should accept a hash as an argument.
 def list_artists(library)
   library.each_key do |x,y|
-    return "x"
+    return "#{x}"
   end
 end
 list_artists(library)
